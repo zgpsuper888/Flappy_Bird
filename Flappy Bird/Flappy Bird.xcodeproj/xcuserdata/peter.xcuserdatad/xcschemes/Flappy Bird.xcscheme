@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D02DF9091E6BB410008DA820"
+               BlueprintIdentifier = "D02DF9511E6BBDCA008DA820"
                BuildableName = "Flappy Bird.app"
                BlueprintName = "Flappy Bird"
                ReferencedContainer = "container:Flappy Bird.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D02DF9091E6BB410008DA820"
+            BlueprintIdentifier = "D02DF9511E6BBDCA008DA820"
             BuildableName = "Flappy Bird.app"
             BlueprintName = "Flappy Bird"
             ReferencedContainer = "container:Flappy Bird.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D02DF9091E6BB410008DA820"
+            BlueprintIdentifier = "D02DF9511E6BBDCA008DA820"
             BuildableName = "Flappy Bird.app"
             BlueprintName = "Flappy Bird"
             ReferencedContainer = "container:Flappy Bird.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D02DF9091E6BB410008DA820"
+            BlueprintIdentifier = "D02DF9511E6BBDCA008DA820"
             BuildableName = "Flappy Bird.app"
             BlueprintName = "Flappy Bird"
             ReferencedContainer = "container:Flappy Bird.xcodeproj">
