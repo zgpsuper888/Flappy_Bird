@@ -15,6 +15,19 @@
 		D02DF9191E6BB410008DA820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02DF9171E6BB410008DA820 /* Main.storyboard */; };
 		D02DF91B1E6BB410008DA820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02DF91A1E6BB410008DA820 /* Assets.xcassets */; };
 		D02DF91E1E6BB410008DA820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02DF91C1E6BB410008DA820 /* LaunchScreen.storyboard */; };
+		D03DC3AF1E7C2FB200F48148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3AE1E7C2FB200F48148 /* Assets.xcassets */; };
+		D03DC3C11E7C2FCA00F48148 /* backgrounds.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3B21E7C2FCA00F48148 /* backgrounds.atlas */; };
+		D03DC3C21E7C2FCA00F48148 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3B31E7C2FCA00F48148 /* sprites.atlas */; };
+		D03DC3C31E7C2FCA00F48148 /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3B51E7C2FCA00F48148 /* icon_120.png */; };
+		D03DC3C41E7C2FCA00F48148 /* icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3B61E7C2FCA00F48148 /* icon_180.png */; };
+		D03DC3C51E7C2FCA00F48148 /* CGPoint+Extensions.swif.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03DC3B81E7C2FCA00F48148 /* CGPoint+Extensions.swif.swift */; };
+		D03DC3C61E7C2FCA00F48148 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3BA1E7C2FCA00F48148 /* coin.wav */; };
+		D03DC3C71E7C2FCA00F48148 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3BB1E7C2FCA00F48148 /* ding.wav */; };
+		D03DC3C81E7C2FCA00F48148 /* falling.wav in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3BC1E7C2FCA00F48148 /* falling.wav */; };
+		D03DC3C91E7C2FCA00F48148 /* flapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3BD1E7C2FCA00F48148 /* flapping.wav */; };
+		D03DC3CA1E7C2FCA00F48148 /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3BE1E7C2FCA00F48148 /* hitGround.wav */; };
+		D03DC3CB1E7C2FCA00F48148 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3BF1E7C2FCA00F48148 /* pop.wav */; };
+		D03DC3CC1E7C2FCA00F48148 /* whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = D03DC3C01E7C2FCA00F48148 /* whack.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +41,19 @@
 		D02DF91A1E6BB410008DA820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02DF91D1E6BB410008DA820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D02DF91F1E6BB410008DA820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03DC3AE1E7C2FB200F48148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D03DC3B21E7C2FCA00F48148 /* backgrounds.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = backgrounds.atlas; sourceTree = "<group>"; };
+		D03DC3B31E7C2FCA00F48148 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		D03DC3B51E7C2FCA00F48148 /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
+		D03DC3B61E7C2FCA00F48148 /* icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_180.png; sourceTree = "<group>"; };
+		D03DC3B81E7C2FCA00F48148 /* CGPoint+Extensions.swif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swif.swift"; sourceTree = "<group>"; };
+		D03DC3BA1E7C2FCA00F48148 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		D03DC3BB1E7C2FCA00F48148 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		D03DC3BC1E7C2FCA00F48148 /* falling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = falling.wav; sourceTree = "<group>"; };
+		D03DC3BD1E7C2FCA00F48148 /* flapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flapping.wav; sourceTree = "<group>"; };
+		D03DC3BE1E7C2FCA00F48148 /* hitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitGround.wav; sourceTree = "<group>"; };
+		D03DC3BF1E7C2FCA00F48148 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		D03DC3C01E7C2FCA00F48148 /* whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whack.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +86,70 @@
 		D02DF90C1E6BB410008DA820 /* Flappy Bird */ = {
 			isa = PBXGroup;
 			children = (
+				D03DC3B01E7C2FCA00F48148 /* Resources */,
 				D02DF90D1E6BB410008DA820 /* AppDelegate.swift */,
 				D02DF90F1E6BB410008DA820 /* GameScene.sks */,
 				D02DF9111E6BB410008DA820 /* Actions.sks */,
 				D02DF9131E6BB410008DA820 /* GameScene.swift */,
 				D02DF9151E6BB410008DA820 /* GameViewController.swift */,
 				D02DF9171E6BB410008DA820 /* Main.storyboard */,
+				D03DC3AE1E7C2FB200F48148 /* Assets.xcassets */,
 				D02DF91A1E6BB410008DA820 /* Assets.xcassets */,
 				D02DF91C1E6BB410008DA820 /* LaunchScreen.storyboard */,
 				D02DF91F1E6BB410008DA820 /* Info.plist */,
 			);
 			path = "Flappy Bird";
+			sourceTree = "<group>";
+		};
+		D03DC3B01E7C2FCA00F48148 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D03DC3B11E7C2FCA00F48148 /* Art */,
+				D03DC3B41E7C2FCA00F48148 /* Icons */,
+				D03DC3B71E7C2FCA00F48148 /* SKTUtils */,
+				D03DC3B91E7C2FCA00F48148 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D03DC3B11E7C2FCA00F48148 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				D03DC3B21E7C2FCA00F48148 /* backgrounds.atlas */,
+				D03DC3B31E7C2FCA00F48148 /* sprites.atlas */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		D03DC3B41E7C2FCA00F48148 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D03DC3B51E7C2FCA00F48148 /* icon_120.png */,
+				D03DC3B61E7C2FCA00F48148 /* icon_180.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		D03DC3B71E7C2FCA00F48148 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D03DC3B81E7C2FCA00F48148 /* CGPoint+Extensions.swif.swift */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		D03DC3B91E7C2FCA00F48148 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D03DC3BA1E7C2FCA00F48148 /* coin.wav */,
+				D03DC3BB1E7C2FCA00F48148 /* ding.wav */,
+				D03DC3BC1E7C2FCA00F48148 /* falling.wav */,
+				D03DC3BD1E7C2FCA00F48148 /* flapping.wav */,
+				D03DC3BE1E7C2FCA00F48148 /* hitGround.wav */,
+				D03DC3BF1E7C2FCA00F48148 /* pop.wav */,
+				D03DC3C01E7C2FCA00F48148 /* whack.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,10 +213,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02DF9191E6BB410008DA820 /* Main.storyboard in Resources */,
+				D03DC3C31E7C2FCA00F48148 /* icon_120.png in Resources */,
+				D03DC3CB1E7C2FCA00F48148 /* pop.wav in Resources */,
 				D02DF9101E6BB410008DA820 /* GameScene.sks in Resources */,
+				D03DC3C81E7C2FCA00F48148 /* falling.wav in Resources */,
+				D03DC3C21E7C2FCA00F48148 /* sprites.atlas in Resources */,
+				D03DC3C61E7C2FCA00F48148 /* coin.wav in Resources */,
+				D03DC3CA1E7C2FCA00F48148 /* hitGround.wav in Resources */,
 				D02DF91B1E6BB410008DA820 /* Assets.xcassets in Resources */,
+				D03DC3C91E7C2FCA00F48148 /* flapping.wav in Resources */,
+				D03DC3C71E7C2FCA00F48148 /* ding.wav in Resources */,
+				D03DC3CC1E7C2FCA00F48148 /* whack.wav in Resources */,
 				D02DF91E1E6BB410008DA820 /* LaunchScreen.storyboard in Resources */,
+				D03DC3C41E7C2FCA00F48148 /* icon_180.png in Resources */,
+				D03DC3AF1E7C2FB200F48148 /* Assets.xcassets in Resources */,
 				D02DF9121E6BB410008DA820 /* Actions.sks in Resources */,
+				D03DC3C11E7C2FCA00F48148 /* backgrounds.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +241,7 @@
 			files = (
 				D02DF9141E6BB410008DA820 /* GameScene.swift in Sources */,
 				D02DF9161E6BB410008DA820 /* GameViewController.swift in Sources */,
+				D03DC3C51E7C2FCA00F48148 /* CGPoint+Extensions.swif.swift in Sources */,
 				D02DF90E1E6BB410008DA820 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,7 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3AGQM3HHUQ;
 				INFOPLIST_FILE = "Flappy Bird/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Flappy-Bird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,7 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3AGQM3HHUQ;
 				INFOPLIST_FILE = "Flappy Bird/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Flappy-Bird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -314,6 +406,7 @@
 				D02DF9241E6BB410008DA820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

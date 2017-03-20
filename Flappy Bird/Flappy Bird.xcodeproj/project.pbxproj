@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D02DF9521E6BBDCA008DA820 /* Flappy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flappy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02DF9521E6BBDCA008DA820 /* 飞鸟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "飞鸟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02DF9551E6BBDCA008DA820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D02DF9591E6BBDCA008DA820 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		D02DF95B1E6BBDCA008DA820 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		D02DF9531E6BBDCA008DA820 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D02DF9521E6BBDCA008DA820 /* Flappy Bird.app */,
+				D02DF9521E6BBDCA008DA820 /* 飞鸟.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,7 +163,7 @@
 			);
 			name = "Flappy Bird";
 			productName = "Flappy Bird";
-			productReference = D02DF9521E6BBDCA008DA820 /* Flappy Bird.app */;
+			productReference = D02DF9521E6BBDCA008DA820 /* 飞鸟.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -361,7 +361,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.super.bird;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "飞鸟";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -376,7 +376,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.super.bird;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "飞鸟";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

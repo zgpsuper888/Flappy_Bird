@@ -45,6 +45,10 @@ struct  物理层{
 
 class GameScene: SKScene ,SKPhysicsContactDelegate{
     
+    let 课程网址 = "http://www.iOSinit.com/flappy-bird"
+    let AppStore的链接 = "http://itunes.apple.com/app/id1077251372?mt=8"
+    
+    
     let k前景地面数 = 2
     let k地面移动速度:CGFloat = -150.0
     
@@ -108,7 +112,7 @@ class GameScene: SKScene ,SKPhysicsContactDelegate{
         
         addChild(世界单位)
         
-        切换到教程状态()
+        切换到主菜单()
     }
     func 设置主菜单(){
         let logo = SKSpriteNode(imageNamed:"Logo")
@@ -137,8 +141,27 @@ class GameScene: SKScene ,SKPhysicsContactDelegate{
         世界单位.addChild(评价按钮)
         
         //
-        
+        let 评价 = SKSpriteNode(imageNamed:"Rate")
+        评价.position = CGPoint.zero
+        评价按钮.addChild(评价)
     
+        let 学习 = SKSpriteNode(imageNamed:"button_learn")
+        学习.position = CGPoint(x:size.width*0.5,y:学习.size.height/2+k顶部留白)
+        学习.name = "主菜单"
+        学习.zPosition = 图层.UI.rawValue
+        世界单位.addChild(学习)
+
+        let 放大动画=SKAction.scale(to: 1.02, duration: 0.75)
+        放大动画.timingMode = .easeInEaseOut
+        
+        let 缩小动画=SKAction.scale(to: 0.98, duration: 0.75)
+        缩小动画.timingMode = .easeInEaseOut
+        
+        学习.run(SKAction.repeatForever(SKAction.sequence([
+            放大动画,
+            缩小动画
+            ])))
+        
     
     }
     
@@ -240,8 +263,20 @@ class GameScene: SKScene ,SKPhysicsContactDelegate{
         override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
             
             
+            guard let 点击 = touches.first else {
+                return
+            }
+            let 点击位置 = 点击.location(in: self)
+            
             switch 当前游戏状态 {
             case .主菜单:
+                if 点击位置.y<size.height*0.15{
+                 去学习()
+                }else if 点击位置.x < size.width/2{
+                 切换到教程状态()
+                } else{
+                去评价()
+                }
                 break
             case .教程:
                 切换到游戏状态()
@@ -611,10 +646,13 @@ class GameScene: SKScene ,SKPhysicsContactDelegate{
     
     func 切换到教程状态(){
     当前游戏状态 = .教程
-        设置背景();
-        设置前景();
-        设置主角();
-        设置帽子();
+        
+        世界单位.enumerateChildNodes(withName: "主菜单") { (匹配单位, stop) in
+            匹配单位.run(SKAction.sequence([
+                SKAction.fadeOut(withDuration: 0.05),
+                SKAction.removeFromParent()
+                ]))
+        }
         
         设置得分标签();
         
@@ -698,7 +736,22 @@ class GameScene: SKScene ,SKPhysicsContactDelegate{
         
     }
     
-  
+  //MARK: 其他
+    func 去学习(){
+ 
+        let 网址=NSURL(string:课程网址)
+        UIApplication.shared.open(网址 as! URL)
+        
+        
+        
+    }
+    
+    func 去评价(){
+        let 网址=NSURL(string:AppStore的链接)
+        UIApplication.shared.open(网址 as! URL)
+        
+
+    }
     
     
     
